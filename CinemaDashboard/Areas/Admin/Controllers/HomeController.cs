@@ -1,0 +1,9 @@
+namespace CinemaDashboard.Areas.Admin.Controllers
+{
+    [Area("Admin")]
+    public class HomeController : Controller
+    {
+        public IActionResult Index() => View();
+        public IActionResult NotFoundPage() => View();
+    }
+}
